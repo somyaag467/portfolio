@@ -1,0 +1,129 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+#home {
+    background-color: #dceeff;
+    padding: 100px 20px;
+}
+
+#home h1 {
+    font-size: 40px;
+    color: #222;
+}
+
+#home h3 {
+    margin: 15px;
+}
+
+
+h2 {
+    margin-bottom: 25px;
+    color: #1d3557;
+}
+
+
+button {
+    background-color: #1d3557;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #457b9d;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skills div {
+    background-color: #1d3557;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+
+.project {
+    background-color: white;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+#contact {
+    background-color: #dceeff;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #home h1 {
+        font-size: 28px;
+    }
+}
